@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./post/project_1.html</guid>
-      <description> 1 2  </description>
+      <description>This project uses Amazon product review and meta data up to 2018 to create recommender systems: one approach was write a commandline program that would return personalized recommendations for a user profile, which involved thorough evaluation of models using both collaborative and content-based filtering methods. The github repo shows the model evaluation in detail. I went with the SVD algorithm (a collaborative filtering method) for the commandline approach, and then made a Flask web app with pre-computed sets of products which are similar to a specific product (content-based method).</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./post/project_2.html</guid>
-      <description></description>
+      <description>This project models purchasing behavior of an e-commerce website in terms of analytics such as number of pages viewed, type of web page visited and duration (e.g. product related or administrative pages), and other features such as &amp;lsquo;bounce rates&amp;rsquo;, &amp;lsquo;exit rates&amp;rsquo;, etc. associated with a binary target variable (1 = purchase; 0 = no purchase). The overarching goal was to tune a model to the purchasing behavior and derive feature importance - i.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./post/project_3.html</guid>
-      <description></description>
+      <description>Here I scraped and cleaned data such as IMDB ratings, writer, director, number of viewers, episode transcripts, category (&amp;lsquo;Mythology&amp;rsquo; or not) for every episode of The X-Files, and did a deep dive to understand how these features correlate with episode rating. I used statistical testing methods such as Welch&amp;rsquo;s T-test and the Mann-Whitney U test to probe the influence of writers, directors and characters on episode rating, and modelled the ratings progression through the series with a number of methods to understand where the show peaks and which episodes are rated more highly.</description>
     </item>
     
   </channel>

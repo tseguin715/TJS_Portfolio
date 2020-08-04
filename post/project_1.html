@@ -27,21 +27,21 @@
     
     
     <meta property="og:title" content="Amazon Product Recommender" />
-<meta property="og:description" content=" 1 2  " />
+<meta property="og:description" content="This project uses Amazon product review and meta data up to 2018 to create recommender systems: one approach was write a commandline program that would return personalized recommendations for a user profile, which involved thorough evaluation of models using both collaborative and content-based filtering methods. The github repo shows the model evaluation in detail. I went with the SVD algorithm (a collaborative filtering method) for the commandline approach, and then made a Flask web app with pre-computed sets of products which are similar to a specific product (content-based method)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="./post/project_1.html" />
 
 <meta itemprop="name" content="Amazon Product Recommender">
-<meta itemprop="description" content=" 1 2  ">
+<meta itemprop="description" content="This project uses Amazon product review and meta data up to 2018 to create recommender systems: one approach was write a commandline program that would return personalized recommendations for a user profile, which involved thorough evaluation of models using both collaborative and content-based filtering methods. The github repo shows the model evaluation in detail. I went with the SVD algorithm (a collaborative filtering method) for the commandline approach, and then made a Flask web app with pre-computed sets of products which are similar to a specific product (content-based method).">
 
-<meta itemprop="wordCount" content="2">
+<meta itemprop="wordCount" content="233">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Amazon Product Recommender"/>
-<meta name="twitter:description" content=" 1 2  "/>
+<meta name="twitter:description" content="This project uses Amazon product review and meta data up to 2018 to create recommender systems: one approach was write a commandline program that would return personalized recommendations for a user profile, which involved thorough evaluation of models using both collaborative and content-based filtering methods. The github repo shows the model evaluation in detail. I went with the SVD algorithm (a collaborative filtering method) for the commandline approach, and then made a Flask web app with pre-computed sets of products which are similar to a specific product (content-based method)."/>
 
 	
   </head>
@@ -182,15 +182,22 @@
       <h1 class="f1 athelas mt3 mb1">Amazon Product Recommender</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="0001-01-01T00:00:00Z">January 1, 0001</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul>
-<li>1</li>
-<li>2</li>
-</ul>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This project uses Amazon product review and meta data up to 2018 to create recommender systems: one approach was write a commandline program that would return personalized recommendations for a user profile, which involved thorough evaluation of models using both collaborative and content-based filtering methods. The github repo shows the model evaluation in detail. I went with the SVD algorithm (a collaborative filtering method) for the commandline approach, and then made a Flask web app with pre-computed sets of products which are similar to a specific product (content-based method).</p>
+<p>The commandline approach works in this manner:</p>
+<ol>
+<li>Take in user input of ratings</li>
+<li>Detect which departments the products belong to</li>
+<li>Fit a separate model with all users and rating data for each department, which include the user&rsquo;s</li>
+<li>Return recommendations for each department for the user</li>
+</ol>
+<p>Multiple models were used in model evaluation: these included SVD and NMF (collaborative filtering), as well as XGBoost and cosine similarity on TFIDF-transformed item descriptions (content-based filtering). SVD and XGBoost were the top performing models, though the current form of the program uses SVD for performance reasons. This is liable to change pending additional model evaluation.</p>
+<p>In addition, there are other metrics for scoring recommenders, such as those involving precision and recall across the ratings categories, and other models that could be explored - this is a work in progress.</p>
+<p>Github (commandline recommender): <a href="https://github.com/tseguin715/Amazon-product-recommender">https://github.com/tseguin715/Amazon-product-recommender</a></p>
+<p>Web app (content-based recommender): <a href="https://tjs-apr.herokuapp.com">https://tjs-apr.herokuapp.com</a></p>
 <ul class="pa0">
   
 </ul>

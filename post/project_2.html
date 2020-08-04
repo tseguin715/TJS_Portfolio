@@ -27,21 +27,21 @@
     
     
     <meta property="og:title" content="Factors associated with online purchasing behavior" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="This project models purchasing behavior of an e-commerce website in terms of analytics such as number of pages viewed, type of web page visited and duration (e.g. product related or administrative pages), and other features such as &lsquo;bounce rates&rsquo;, &lsquo;exit rates&rsquo;, etc. associated with a binary target variable (1 = purchase; 0 = no purchase). The overarching goal was to tune a model to the purchasing behavior and derive feature importance - i." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="./post/project_2.html" />
 
 <meta itemprop="name" content="Factors associated with online purchasing behavior">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="This project models purchasing behavior of an e-commerce website in terms of analytics such as number of pages viewed, type of web page visited and duration (e.g. product related or administrative pages), and other features such as &lsquo;bounce rates&rsquo;, &lsquo;exit rates&rsquo;, etc. associated with a binary target variable (1 = purchase; 0 = no purchase). The overarching goal was to tune a model to the purchasing behavior and derive feature importance - i.">
 
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="208">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Factors associated with online purchasing behavior"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="This project models purchasing behavior of an e-commerce website in terms of analytics such as number of pages viewed, type of web page visited and duration (e.g. product related or administrative pages), and other features such as &lsquo;bounce rates&rsquo;, &lsquo;exit rates&rsquo;, etc. associated with a binary target variable (1 = purchase; 0 = no purchase). The overarching goal was to tune a model to the purchasing behavior and derive feature importance - i."/>
 
 	
   </head>
@@ -182,12 +182,21 @@
       <h1 class="f1 athelas mt3 mb1">Factors associated with online purchasing behavior</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="0001-01-01T00:00:00Z">January 1, 0001</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This project models purchasing behavior of an e-commerce website in terms of analytics such as number of pages viewed, type of web page visited and duration (e.g. product related or administrative pages), and other features such as &lsquo;bounce rates&rsquo;, &lsquo;exit rates&rsquo;, etc. associated with a binary target variable (1 = purchase; 0 = no purchase). The overarching goal was to tune a model to the purchasing behavior and derive feature importance - i.e., find factors associated with whether a person who browses the website makes a purchase. Insights from this could inform strategies that would influence customer purchasing behavior.</p>
+<p>Model evaluation considered:</p>
+<ul>
+<li>Over/undersampling to even the class ratio</li>
+<li>Several classifiers: SVM, Logistic Regression, Random Forest, XGBoost</li>
+<li>Metrics: MCC, ROC, Recall, Precision</li>
+</ul>
+<p>I used MCC as the metric because it is insensitive to class imbalance and favors false positives and false negatives equally. Based on the evaluation, I chose Random Forest with over+undersampling. I found that &lsquo;PageValues&rsquo; (the number of web pages visited on the site) was the most important feature associated with whether a purchase was made.</p>
+<p>This project has room for expansion - i.e., in the form of profit curves and a focus towards more specific business scenarios - and this is currently being explored.</p>
+<p>Github: <a href="https://github.com/tseguin715/Online-Purchasing-Behavior">https://github.com/tseguin715/Online-Purchasing-Behavior</a></p>
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
