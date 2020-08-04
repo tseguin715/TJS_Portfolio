@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trevor&#39;s Data Science Portfolio on Trevor Seguin</title>
+    <link>https://example.com/</link>
+    <description>Recent content in Trevor&#39;s Data Science Portfolio on Trevor Seguin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amazon Product Recommender</title>
+      <link>https://example.com/post/project_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/project_1/</guid>
+      <description> 1 2  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://example.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/contact/</guid>
+      <description>         Email: tseguin715@gmail.com   Linkedin: https://www.linkedin.com/in/trevor-seguin   Github: https://www.github.com/tseguin715    </description>
+    </item>
+    
+    <item>
+      <title>Factors associated with online purchasing behavior</title>
+      <link>https://example.com/post/project_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/project_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The X-Files: Insights from data</title>
+      <link>https://example.com/post/project_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/project_3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
